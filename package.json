@@ -1,0 +1,33 @@
+{
+  "name": "couch-nacl-permit",
+  "version": "1.0.0",
+  "description": "Handle database permits, which encrypts a database key with a session key. For use with couch-box.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jo/couch-nacl-permit.git"
+  },
+  "keywords": [
+    "couchdb",
+    "crypto",
+    "nacl",
+    "curve25519",
+    "couch-box"
+  ],
+  "author": "Johannes J. Schmidt <schmidt@netzmerk.com> (http://die-tf.de/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jo/couch-nacl-permit/issues"
+  },
+  "homepage": "https://github.com/jo/couch-nacl-permit#readme",
+  "devDependencies": {
+    "tap-spec": "^3.0.0",
+    "tape": "^4.0.0"
+  },
+  "dependencies": {
+    "tweetnacl": "^0.13.1"
+  }
+}
